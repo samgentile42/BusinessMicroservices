@@ -22,8 +22,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIComponents", "APIComponents\APIComponents.csproj", "{950BF3B7-D57E-4497-970E-1C5ED5090D50}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.AuthServer", "Identity.AuthServer\Identity.AuthServer.csproj", "{DDCB0E01-B76E-49D3-A180-451604E069D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C58EDF8E-383A-4731-BD7D-EE3FB8559345} = {C58EDF8E-383A-4731-BD7D-EE3FB8559345}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendor.API", "Vendor.API\Vendor.API.csproj", "{DC255652-6E77-4EAA-992A-EB29D0C58212}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C58EDF8E-383A-4731-BD7D-EE3FB8559345} = {C58EDF8E-383A-4731-BD7D-EE3FB8559345}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vendor.Domain", "Vendor.Domain\Vendor.Domain.csproj", "{0D7DC25C-8917-4D5F-A0E6-857EFB217758}"
 EndProject
